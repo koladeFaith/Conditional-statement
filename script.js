@@ -35,6 +35,21 @@ function checkTem() {
     temAns.innerText = "Hot";
   }
 }
+// QUESTION 8
+function checkBMI() {
+  let firstNo = weight.value;
+  let secondNo = height.value;
+  var BMICal = firstNo / secondNo;
+  if (BMICal < 18.5) {
+    BMIAns.innerHTML = "UnderWeight";
+  } else if (BMICal > 18.5 && BMICal <= 24.9) {
+    BMIAns.innerHTML = "Normal Weight";
+  } else if (BMICal > 25.0 && BMICal <= 29.9) {
+    BMIAns.innerHTML = "OverWeight";
+  } else {
+    BMIAns.innerHTML = "Obesity";
+  }
+}
 
 // QUESTION 10
 function luggageWeight() {

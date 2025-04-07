@@ -11,29 +11,48 @@
     <h1>1</h1>
     <input type="address" class="inputStyle" id="address" />
     <button onclick="process()">Process</button>
-    <div class="showAnswer" id="addressAns" > Your answer should show here</div>
+    <div class="showAnswer" id="addressAns">Your answer should show here</div>
     <!-- QUESTION 2 -->
-     
+
     <!-- QUESTION 3 -->
-     <h1>3</h1>
+    <h1>3</h1>
     <input type="text" class="inputStyle" id="spaceAdjust" />
     <button onclick="processNoSpace()">Check</button>
-    <div class="showAnswer" id="noSpaceAns" >  Your answer should show here</div>
+    <div class="showAnswer" id="noSpaceAns">Your answer should show here</div>
     <!-- QUESTION 5 -->
     <h1>5</h1>
     <input type="number" class="inputStyle" id="discount" />
     <button onclick="discountCal()">Process</button>
-    <div class="showAnswer" id="discountAns" > Your answer should show here</div>
+    <div class="showAnswer" id="discountAns">Your answer should show here</div>
     <!-- QUESTION 6 -->
-     <h1>6</h1>
-     <input type="number" class="inputStyle" id="temperature" />
+    <h1>6</h1>
+    <input type="number" class="inputStyle" id="temperature" />
     <button onclick="checkTem()">Check</button>
-    <div class="showAnswer" id="temAns" >Check your temperature here</div>
-     <!-- QUESTION 10 -->
-     <h1>10</h1>
-     <input type="number" class="inputStyle" id="luggage" />
+    <div class="showAnswer" id="temAns">Check your temperature here</div>
+    <!-- QUESTION 8 -->
+    <h1>8</h1>
+    <div class="weight">
+      <input
+        type="text"
+        class="inputStyle"
+        id="weight"
+        placeholder="Enter your weight" />
+      <input
+        type="text"
+        class="inputStyle"
+        id="height"
+        placeholder="Enter your height" />
+      <button onclick="checkBMI()">Check</button>
+    </div>
+    <div class="showAnswer" id="BMIAns">Check your BMI here</div>
+
+    <!-- QUESTION 10 -->
+    <h1>10</h1>
+    <input type="number" class="inputStyle" id="luggage" />
     <button onclick="luggageWeight()">Check</button>
-    <div class="showAnswer" id="weightAns" >The luggage weight should show here</div>
+    <div class="showAnswer" id="weightAns">
+      The luggage weight should show here
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
