@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 500px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.showAnswer {
+  width: 400px;
+  height: 70px;
+  border: 1px solid black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.inputStyle {
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  padding: 0px 5px;
+}
