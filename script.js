@@ -9,17 +9,17 @@ function processNoSpace() {
   if (spaceAdjust.value == "") {
     alert("This cannot be Empty");
   } else {
-    var text = spaceAdjust.value.trim();
+    let text = spaceAdjust.value.trim();
     noSpaceAns.innerHTML = text;
   }
 }
 // QUESTION 5
 function discountCal() {
-  var evenNo = discount.value
-  if (evenNo%2 == 0) {
-    discountAns.innerText = "You get 20% discount"
+  var evenNo = discount.value;
+  if (evenNo % 2 == 0) {
+    discountAns.innerText = "You get 20% discount";
   } else {
-     discountAns.innerText = "You did not get any discount";
+    discountAns.innerText = "You did not get any discount";
   }
 }
 
@@ -33,5 +33,17 @@ function checkTem() {
     temAns.innerText = "Warm";
   } else {
     temAns.innerText = "Hot";
+  }
+}
+
+// QUESTION 10
+function luggageWeight() {
+  let luggageCheck = luggage.value;
+  if (luggageCheck < 20) {
+    weightAns.innerHTML = "UnderWeight";
+  } else if (luggageCheck >= 20 && luggageCheck < 30) {
+    weightAns.innerHTML = "Allowed";
+  } else {
+    weightAns.innerHTML = "OverWeight";
   }
 }
