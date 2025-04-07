@@ -4,15 +4,7 @@ function process() {
 
   addressAns.innerText = customerAddress.toLowerCase();
 }
-// QUESTION 3
-function processNoSpace() {
-  if (spaceAdjust.value == "") {
-    alert("This cannot be Empty");
-  } else {
-    let text = spaceAdjust.value.trim();
-    noSpaceAns.innerHTML = text;
-  }
-}
+
 // QUESTION 5
 function discountCal() {
   var evenNo = discount.value;
